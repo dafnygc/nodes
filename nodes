@@ -67,8 +67,12 @@ console.log("2x2=2",2*2 );
 console.log("1x1=1",1*1 );
 console.log("2x2=2",2*2 );
 
-T = 1
-M = 1
-for(M=1; M<10; M++){
-console.log(T+" = ", T * M );
+T = 10;
+M = 1:
+
+for(T=1; T <= 10; T++) {
+console.log() ;
+console.log(" ====== T = " + T + " ====== ")
+for(M=1; M< 10; M++){
+console.log(T+" x "  + M + " = ", T* M );
 } 
