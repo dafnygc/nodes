@@ -76,3 +76,14 @@ console.log(" ====== T = " + T + " ====== ")
 for(M=1; M< 10; M++){
 console.log(T+" x "  + M + " = ", T* M );
 } 
+
+
+const nome = "Dafny"
+const sobrenome = "Guetten"
+let = nomecompleto = ""
+nomecompleto  = nome + " " + sobrenome
+console.log("seu nome é: " , nomecompleto )
+x = number("8")
+h = string (8)
+o = "8" + "5"
+console.log("valor é: , o ")
