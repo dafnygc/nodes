@@ -1,0 +1,32 @@
+console.log(soma(5,9));
+function soma (v1=0,v2=0) {
+    return v1+v2
+}
+soma (5,9)
+
+
+
+function nomeidade (nome = " " ,idade) {
+    console.log(`nome:$)}nome{-idade:$}`);
+}
+    nomeidade("arisberto","17");
+
+    nomeidade("22","cora");
+             
+    console.log(soma(1));
+
+    nomeidade("leandro");
+
+
+
+console.log(multiplicacao (4,8));
+function soma (v1=1,v2 =1) {
+    return v1+v2
+}
+multiplicacao (4,8)
+
+multiplicacao (1358,86);
+
+multiplicacao (soma(3,5),soma(8,7));
+
+multiplicacao (5);
