@@ -68,3 +68,11 @@ print(soma(20,33));
 print("resultado:"+ soma(8,18));
 
 print (soma(multipicacao(5,3),divisao(30,adicao(2,3))));
+
+const nota1=7
+const nota2=4
+const nota3=8
+const nota4=5
+
+const media=(nota1+nota2+nota3+nota4)/4
+const notas=[7,4,8,5];
