@@ -30,3 +30,41 @@ multiplicacao (1358,86);
 multiplicacao (soma(3,5),soma(8,7));
 
 multiplicacao (5);
+
+
+function adicao(a1,a2) {
+    let resultado = 0;
+    resultado = a1 + a2
+    retorn = resultado
+}
+
+function subtracao(s3,s4) {
+        let resultado = 0;
+        resultado = s1 + s2
+        retorn = resultado
+    }
+function divisao(d5,d6){
+        let resultado = 0;
+        resultado = d1 + d2
+        retorn = resultado
+}
+
+function multipicacao(m7,m8) {
+
+    let resultado = 0;
+    resultado = m1 + m2
+    retorn = resultado
+}
+
+function print(mensagem) {
+    console.log(mensagem);
+}
+
+
+print("ola");
+
+print(soma(20,33));
+
+print("resultado:"+ soma(8,18));
+
+print (soma(multipicacao(5,3),divisao(30,adicao(2,3))));
