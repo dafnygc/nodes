@@ -69,6 +69,9 @@ print("resultado:"+ soma(8,18));
 
 print (soma(multipicacao(5,3),divisao(30,adicao(2,3))));
 
+
+       arry
+
 const nota1=7
 const nota2=4
 const nota3=8
