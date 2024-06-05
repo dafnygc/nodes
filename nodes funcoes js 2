@@ -79,3 +79,11 @@ const nota4=5
 
 const media=(nota1+nota2+nota3+nota4)/4
 const notas=[7,4,8,5];
+
+const produtos=["sabonetes","bolacha","sucos","pastas de dente","macarrao","tomate","queijos","farinhas","ovos","salgadinhos"]
+console.log(produtos);
+console.log(produtos[2])
+console.log(produtos.lenght);
+
+
+
