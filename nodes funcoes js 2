@@ -107,6 +107,31 @@ dado2= [["Natalie","Fernanda","Kato"],[8,8.5,9][[3,9,7],[5,8,9],[8,9,7]]]
 console.log("nome:"+dado2[0][1]+"média:"+dado2[1][1][0]);
 
 
+onst lista =["Monica","Artur","Paulo"]
+for(i=0;i<=lista.lengeth;i++){
+    if(lista[i]=="Artur"){
+        console.log("existe")
+        console.log("indice:+i")
+    }
+}
+if (lista.includes("Artur")){
+    console.log("existe")
+    i=lista.indexOf("Artur")
+    console.log('indice:'+i)
+}
+
+const listas =["Monica","Artur","Paulo"]
+const media=[8,9,10]
+const dado=[nome,media]
+function buscaMedia(media,dado){
+    Lnome = dado.slice(0,0)
+    Lnome = dado.slice(1,1)
+    if(Lnome.include(nome)){
+    return Lmedia[Lnome.indexOf(nome)]
+}
+return -1
+}
+
 
 
 
