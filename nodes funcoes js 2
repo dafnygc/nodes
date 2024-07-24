@@ -132,6 +132,18 @@ function buscaMedia(media,dado){
 return -1
 }
 
+const objetoPessoa={
+    nome:"dafny"
+    idade:17
+    cpf:"000.111.222.33"
+
+}
+console.log(objetoPessoa)
+console.log(`nomedapessoa;${objetoPessoa.nome}`)
+
+
+
+const list=["dafny",17,"000,111,222,33"]
 
 
 
