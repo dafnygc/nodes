@@ -145,5 +145,19 @@ console.log(`nomedapessoa;${objetoPessoa.nome}`)
 
 const list=["dafny",17,"000,111,222,33"]
 
+const objetocliente = {
+    id: 10,
+    nome: "dafny",
+    idade: 50,
+    cpf: "111,222,333,44"
+}
+
+console.log(`nome da pessoa: ${objetocliente[`nome`]}`)
+console.log(`idade: ${objetocliente[`idade`]}`)
+console.log(`cpf: ${objetocliente[`cpf`]}`)
+
+
+
+
 
 
