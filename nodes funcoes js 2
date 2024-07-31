@@ -156,6 +156,12 @@ console.log(`nome da pessoa: ${objetocliente[`nome`]}`)
 console.log(`idade: ${objetocliente[`idade`]}`)
 console.log(`cpf: ${objetocliente[`cpf`]}`)
 
+const chaves = ["nome","idade","cpf"]
+
+chaves.forEach((chaves) => {
+    console.log(`chave: ${chave}valor: ${cliente[chaves]}`)
+});
+
 
 
 
