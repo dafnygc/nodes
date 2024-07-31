@@ -162,7 +162,26 @@ chaves.forEach((chaves) => {
     console.log(`chave: ${chave}valor: ${cliente[chaves]}`)
 });
 
+const pessoa = {
+    nome: "Monica",
+    profissao:"Professora"
+}
 
+console.log(pessoa.nome)
+
+console.log(pessoa.telefone)
+
+pessoa.telefone = "41 99999-9999"
+
+console.log(pessoa.telefone)
+
+console.log(pessoa)
+
+const novapessoa = {
+    nome: "teste"
+}
+
+pessoa = novapessoa
 
 
 
