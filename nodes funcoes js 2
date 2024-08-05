@@ -183,6 +183,37 @@ const novapessoa = {
 
 pessoa = novapessoa
 
+ 5/8 const pessoa = {
+    nome: "Monica",
+    idade: 18,
+    email: "dgc01@gmail.com",
+    telefone: ["41 9999-9999", "41 9999-11111"]
+}
+
+console.log(cliente)
+
+console.log(cliente.telefone)
+
+ objemobj const pessoa = {
+    nome: "Monica",
+    idade: 18,
+    email: "dgc01@gmail.com",
+    telefone: ["41 9999-9999", "41 9999-11111"]
+}
+
+cliente.enderenco = {
+    rua:'sete de setembro',
+    numero: 954,
+    apartamento: true,
+    complemento: "ap 25"
+
+}
+
+console.log(cliente)
+
+console.log(cliente.endereco)
+
+
 
 
 
