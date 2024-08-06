@@ -259,6 +259,8 @@ cliente.enderecos.push(
         apartamento: false,
     }
     )
+console.log(cliente)
+
 
 
 
