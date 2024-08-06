@@ -214,6 +214,54 @@ console.log(cliente)
 console.log(cliente.endereco)
 
 
+const cliente  = {
+    nome: "fernanda",
+    idade: 18,
+    email: "gds01@gmail.com",
+    telefone: ["41 9999-9999", "41 9999-0000"]
+    }
+
+console.log(cliente)
+
+const cliente2 = {
+    nome: "Monica",
+    idade: 18,
+    email: "dgc01@gmail.com",
+    telefone: ["41 9999-9999", "41 9999-11111"]
+}
+
+cliente.enderenco = {
+    rua:'sete de setembro',
+    numero: 954,
+    apartamento: true,
+    complemento: "ap 25"
+
+}
+
+console.log(cliente)
+
+console.log(cliente.endereco)
+
+cliente.endereco = [{
+    rua: 'sete de setembro',
+    numero: 954,
+    apartamento: true,
+    complemento: "ap 25"
+
+},
+]
+console.log(cliente)
+
+cliente.enderecos.push(
+    {
+        rua: '24 de maio',
+        numero: 728,
+        apartamento: false,
+    }
+    )
+
+
+
 
 
 
