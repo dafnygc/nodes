@@ -264,6 +264,23 @@ console.log(cliente)
 
 
 
+const turma = {
+    nome:'3 A',
+    ano:'2024',
+    professor: {
+        nome:'leandro',
+        disciplina:'prog'
+    },
+    aluno:[{
+        nome:'Paulo',
+        idade:15
+    },
+    {
+        nome:'Medina',
+        idade:16
+    }
+]
+}
 
 
 
